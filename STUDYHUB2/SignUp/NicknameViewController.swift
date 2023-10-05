@@ -193,12 +193,13 @@ class NicknameViewController: UIViewController {
     
     
     @objc func nextButtonTapped() {
-        let nickname = nicknameTextField.text
         
+        let nickname = nicknameTextField.text
+
         // 서버에 POST 요청을 보냅니다.
         sendNicknameToServer(nickname: nickname)
     }
-    
+
     // 서버에 GET 요청을 보내는 메서드
     func sendNicknameToServer(nickname: String?) {
         guard let nickname = nickname, !nickname.isEmpty else {
@@ -209,16 +210,16 @@ class NicknameViewController: UIViewController {
         // API 엔드포인트 URL과 쿼리 파라미터 준비
         var urlComponents = URLComponents(string: "https://study-hub.site:443/api/users/duplication-nickname")!
         urlComponents.queryItems = [URLQueryItem(name: "nickname", value: nickname)]
-        
+
         guard let url = urlComponents.url else {
             // 잘못된 URL 처리
             return
         }
-        
+
         // URLRequest 생성 (GET 요청으로 수정)
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
-        
+
         // URLSession을 사용하여 서버 요청을 보냅니다.
         let task = URLSession.shared.dataTask(with: request) { [weak self] (data, response, error) in
             // 서버 응답 처리
@@ -246,13 +247,14 @@ class NicknameViewController: UIViewController {
                     // "중복된 닉네임입니다" 경고 표시
                     self?.showAlert(message: "중복된 닉네임입니다") {
                         // 확인 버튼을 눌렀을 때 실행할 코드 (예를 들어 다른 처리나 다이얼로그 닫기)
+                        self?.navigateToDepartmentViewController()
                     }
                 }
             }
         }
         task.resume()
     }
-    
+
     // UIAlertController를 사용하여 알림을 표시하는 메서드
     func showAlert(message: String, completion: (() -> Void)?) {
         let alert = UIAlertController(title: "알림", message: message, preferredStyle: .alert)

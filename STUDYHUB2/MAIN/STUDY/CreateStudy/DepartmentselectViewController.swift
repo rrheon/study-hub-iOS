@@ -259,13 +259,13 @@ class DepartmentselectViewController: UIViewController, UISearchBarDelegate {
     @objc func doneButtonTapped() {
         if let selectedDepartment = searchResultButton.currentTitle {
             // 선택한 학과를 CreateStudyViewController로 전달
-            let createVC = CreateStudyViewController()
+            let createStudyViewController = CreateStudyViewController()
 
             // CreateStudyViewController의 categoryStackView에 버튼을 추가
-            createVC.addDepartmentButton(selectedDepartment)
+            createStudyViewController.addDepartmentButton(selectedDepartment)
 
             // CreateStudyViewController를 표시
-            present(createVC, animated: true, completion: nil)
+            present(createStudyViewController, animated: true, completion: nil)
         }
     }
     

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30FD7EE2CF0517ED1CDD25CC /* Pods_STUDYHUB2_STUDYHUB2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1727292396452C8932A421AD /* Pods_STUDYHUB2_STUDYHUB2UITests.framework */; };
+		7177A343DBA4EBE70D68354B /* Pods_STUDYHUB2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA02F5FFF8A9F928F9C4F3C /* Pods_STUDYHUB2.framework */; };
+		C3AEE328617DCF7E7B9AE3D0 /* Pods_STUDYHUB2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED86C9A73F309AF1BFE9E8B /* Pods_STUDYHUB2Tests.framework */; };
 		F80421922A7D6816006C6B87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80421912A7D6816006C6B87 /* AppDelegate.swift */; };
 		F80421942A7D6816006C6B87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80421932A7D6816006C6B87 /* SceneDelegate.swift */; };
 		F80421962A7D6816006C6B87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80421952A7D6816006C6B87 /* ViewController.swift */; };
@@ -52,6 +55,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CA02F5FFF8A9F928F9C4F3C /* Pods_STUDYHUB2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STUDYHUB2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1727292396452C8932A421AD /* Pods_STUDYHUB2_STUDYHUB2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STUDYHUB2_STUDYHUB2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B145D0F8E40C968ED0049E /* Pods-STUDYHUB2-STUDYHUB2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STUDYHUB2-STUDYHUB2UITests.release.xcconfig"; path = "Target Support Files/Pods-STUDYHUB2-STUDYHUB2UITests/Pods-STUDYHUB2-STUDYHUB2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F406ADC1DF7A77E3FF6C850 /* Pods-STUDYHUB2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STUDYHUB2Tests.release.xcconfig"; path = "Target Support Files/Pods-STUDYHUB2Tests/Pods-STUDYHUB2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B4442321A5477CCEF0ACE081 /* Pods-STUDYHUB2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STUDYHUB2.debug.xcconfig"; path = "Target Support Files/Pods-STUDYHUB2/Pods-STUDYHUB2.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3DD7E78D59C4E3560069A4 /* Pods-STUDYHUB2-STUDYHUB2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STUDYHUB2-STUDYHUB2UITests.debug.xcconfig"; path = "Target Support Files/Pods-STUDYHUB2-STUDYHUB2UITests/Pods-STUDYHUB2-STUDYHUB2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC490D63A88CBEC566EE1C93 /* Pods-STUDYHUB2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STUDYHUB2Tests.debug.xcconfig"; path = "Target Support Files/Pods-STUDYHUB2Tests/Pods-STUDYHUB2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DED86C9A73F309AF1BFE9E8B /* Pods_STUDYHUB2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STUDYHUB2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36FA9B434EAF40C6DBCA54F /* Pods-STUDYHUB2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STUDYHUB2.release.xcconfig"; path = "Target Support Files/Pods-STUDYHUB2/Pods-STUDYHUB2.release.xcconfig"; sourceTree = "<group>"; };
 		F804218E2A7D6816006C6B87 /* STUDYHUB2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STUDYHUB2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80421912A7D6816006C6B87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F80421932A7D6816006C6B87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7177A343DBA4EBE70D68354B /* Pods_STUDYHUB2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3AEE328617DCF7E7B9AE3D0 /* Pods_STUDYHUB2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +116,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FD7EE2CF0517ED1CDD25CC /* Pods_STUDYHUB2_STUDYHUB2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93A57A516B541E15F210DF23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CA02F5FFF8A9F928F9C4F3C /* Pods_STUDYHUB2.framework */,
+				1727292396452C8932A421AD /* Pods_STUDYHUB2_STUDYHUB2UITests.framework */,
+				DED86C9A73F309AF1BFE9E8B /* Pods_STUDYHUB2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C560569D4B4638BCD705049A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4442321A5477CCEF0ACE081 /* Pods-STUDYHUB2.debug.xcconfig */,
+				F36FA9B434EAF40C6DBCA54F /* Pods-STUDYHUB2.release.xcconfig */,
+				CD3DD7E78D59C4E3560069A4 /* Pods-STUDYHUB2-STUDYHUB2UITests.debug.xcconfig */,
+				79B145D0F8E40C968ED0049E /* Pods-STUDYHUB2-STUDYHUB2UITests.release.xcconfig */,
+				DC490D63A88CBEC566EE1C93 /* Pods-STUDYHUB2Tests.debug.xcconfig */,
+				8F406ADC1DF7A77E3FF6C850 /* Pods-STUDYHUB2Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F80421852A7D6816006C6B87 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +154,8 @@
 				F80421A72A7D6818006C6B87 /* STUDYHUB2Tests */,
 				F80421B12A7D6818006C6B87 /* STUDYHUB2UITests */,
 				F804218F2A7D6816006C6B87 /* Products */,
+				C560569D4B4638BCD705049A /* Pods */,
+				93A57A516B541E15F210DF23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F80421B82A7D6818006C6B87 /* Build configuration list for PBXNativeTarget "STUDYHUB2" */;
 			buildPhases = (
+				AC723872A423FC1E6BC858D8 /* [CP] Check Pods Manifest.lock */,
 				F804218A2A7D6816006C6B87 /* Sources */,
 				F804218B2A7D6816006C6B87 /* Frameworks */,
 				F804218C2A7D6816006C6B87 /* Resources */,
+				50DD81E19FC1480D686FAFEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F80421BB2A7D6818006C6B87 /* Build configuration list for PBXNativeTarget "STUDYHUB2Tests" */;
 			buildPhases = (
+				0E37FAF74AA22BFF06522CD2 /* [CP] Check Pods Manifest.lock */,
 				F80421A02A7D6818006C6B87 /* Sources */,
 				F80421A12A7D6818006C6B87 /* Frameworks */,
 				F80421A22A7D6818006C6B87 /* Resources */,
@@ -265,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F80421BE2A7D6818006C6B87 /* Build configuration list for PBXNativeTarget "STUDYHUB2UITests" */;
 			buildPhases = (
+				E9D515B2599AF2D3C042D98E /* [CP] Check Pods Manifest.lock */,
 				F80421AA2A7D6818006C6B87 /* Sources */,
 				F80421AB2A7D6818006C6B87 /* Frameworks */,
 				F80421AC2A7D6818006C6B87 /* Resources */,
+				5E17635190581E9F77776CFB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -348,6 +394,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E37FAF74AA22BFF06522CD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STUDYHUB2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50DD81E19FC1480D686FAFEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STUDYHUB2/Pods-STUDYHUB2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STUDYHUB2/Pods-STUDYHUB2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STUDYHUB2/Pods-STUDYHUB2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E17635190581E9F77776CFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STUDYHUB2-STUDYHUB2UITests/Pods-STUDYHUB2-STUDYHUB2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STUDYHUB2-STUDYHUB2UITests/Pods-STUDYHUB2-STUDYHUB2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STUDYHUB2-STUDYHUB2UITests/Pods-STUDYHUB2-STUDYHUB2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC723872A423FC1E6BC858D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STUDYHUB2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9D515B2599AF2D3C042D98E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STUDYHUB2-STUDYHUB2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F804218A2A7D6816006C6B87 /* Sources */ = {
@@ -544,6 +693,7 @@
 		};
 		F80421B92A7D6818006C6B87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4442321A5477CCEF0ACE081 /* Pods-STUDYHUB2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -572,6 +722,7 @@
 		};
 		F80421BA2A7D6818006C6B87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36FA9B434EAF40C6DBCA54F /* Pods-STUDYHUB2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -600,6 +751,7 @@
 		};
 		F80421BC2A7D6818006C6B87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC490D63A88CBEC566EE1C93 /* Pods-STUDYHUB2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -620,6 +772,7 @@
 		};
 		F80421BD2A7D6818006C6B87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F406ADC1DF7A77E3FF6C850 /* Pods-STUDYHUB2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -640,6 +793,7 @@
 		};
 		F80421BF2A7D6818006C6B87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3DD7E78D59C4E3560069A4 /* Pods-STUDYHUB2-STUDYHUB2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -658,6 +812,7 @@
 		};
 		F80421C02A7D6818006C6B87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B145D0F8E40C968ED0049E /* Pods-STUDYHUB2-STUDYHUB2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
